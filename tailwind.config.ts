@@ -13,8 +13,21 @@ const config: Config = {
         "gradient-conic":
           "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
       },
+      colors: {
+        // Dodatkowe kolory
+        primary: '#4CAF50',
+        // Dodatkowe klasy dla elementów formularza
+        
+      },
+      form: {
+        label: 'text-red-900',
+        input: 'block w-full py-2 px-4 mb-4 border border-gray-300 rounded',
+        textarea: 'block w-full py-2 px-4 mb-4 border border-gray-300 rounded',
+        button: 'block w-full py-2 px-4 bg-primary text-white rounded cursor-pointer transition duration-300 ease-in-out transform hover:bg-opacity-80',
+      },
     },
   },
   plugins: [],
 };
+
 export default config;
