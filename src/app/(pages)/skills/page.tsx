@@ -1,5 +1,6 @@
 import Link from "next/link";
 import React from "react";
+import Carousel from "@/components/carousel";
 
 export default function Skills(){
 
@@ -34,8 +35,11 @@ export default function Skills(){
 
     return(
 <>
+
     <div className="flex flex-row justify-center p-2 gap-y-5 gap-x-64 ml-[20%] mr-[80%] min-w-max ">
+    
         <div className="flex-col  ">
+        
             <h1 className={hcs}>
                 Stack 
             </h1>
@@ -55,18 +59,20 @@ export default function Skills(){
       ))}
     </ul>
         </div>
+        
         <div className="flex-col ">
            
             
 
+        test
 
-
+        
         </div>
-
-
+        <div>test2</div>
+        
+        
     </div>
-   
-
+    
 
 
 

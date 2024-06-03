@@ -1,5 +1,7 @@
 import React from "react";
 import Link from "next/link";
+import Carousel from "@/components/carousel";
+
 
 const navItems = [
     { name: 'JS', path: '/' },
@@ -14,14 +16,36 @@ const navItems = [
 export default function Examples(){
     return(
 <>
-        <div className=" justify-center items-center flex flex-col g-2 p-2 w-max">
+
+<div className="  ml-20">
+
             <h1>
                 Examples
             
             </h1>
-            <Link href="/">test</Link>
+            <Carousel itemsPerPage={4}>
+                <div className="">
+                    test
+                </div>
+                <div>
+                    test2
+                </div>
+                <div>
+                    test3
+                </div>
+                <div className="">
+                    test4
+                </div>
+                <div>
+                    test5ea
+                </div>
+                <div>
+                    test6
+                </div>
+            
+            </Carousel>
         </div>
-
+        
 
 
 
