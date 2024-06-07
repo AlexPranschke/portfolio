@@ -32,7 +32,7 @@ const navItems = [
         width={40} // Szerokość obrazu
         height={40} // Wysokość obrazu
       /></button>
-        <div className='' style={{
+        <div className='z-40' style={{
             position: 'fixed',
             top: 0,
             right: isOpen ? 0 : '-400px',

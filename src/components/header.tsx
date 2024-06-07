@@ -11,7 +11,7 @@ export default function Header() {
   
 
   
-  <div className="flex flex-row border-b-2 shadow-md h-20 place-items-center p-2">
+  <div className="flex flex-row border-b-2 shadow-md h-[15%] place-items-center p-2 z-50">
  
   
  

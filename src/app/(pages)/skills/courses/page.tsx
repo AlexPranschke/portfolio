@@ -1,5 +1,6 @@
 import React from "react";
 import Tail from "@/styles/styles";
+
 export default function Courses(){
 
 
@@ -26,6 +27,7 @@ export default function Courses(){
             <h1 className={Tail.hcs}>
                 I have learned those:
             </h1>
+           
             <h2 className={Tail.h2cs}>
                 wesbos.com
             </h2>

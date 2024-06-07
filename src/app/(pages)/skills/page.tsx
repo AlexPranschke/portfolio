@@ -60,15 +60,7 @@ export default function Skills(){
     </ul>
         </div>
         
-        <div className="flex-col ">
-           
-            
-
-        test
-
-        
-        </div>
-        <div>test2</div>
+       
         
         
     </div>

@@ -1,6 +1,7 @@
 import React from "react";
 import Link from "next/link";
 import Carousel from "@/components/carousel";
+import ScrollNavigator from "@/components/ScrollNavigator";
 
 
 const navItems = [
@@ -16,7 +17,7 @@ const navItems = [
 export default function Examples(){
     return(
 <>
-
+<ScrollNavigator />
 <div className="  ml-20">
 
             <h1>
